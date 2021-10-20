@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConverterActivity">
+
+    <ImageButton
+        android:id="@+id/converterBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="348dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="189dp"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="210dp"
+        app:srcCompat="@drawable/converter" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="62dp"
+        android:text="@string/convert_button" />
+
+    <LinearLayout
+        android:layout_width="142dp"
+        android:layout_height="254dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/usd"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/eur"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="@string/cny"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="@string/kzt"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/rub"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="254dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewUSDval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/usd_val"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textViewEURval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/eur_val"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textViewCNYval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="@string/cny_val"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textViewKZTval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="@string/kzt_val"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textViewRUBval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rub_val"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/currencyRadioGroup"
+        android:layout_width="243dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonUSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd_rad" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEUR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="48dp"
+            android:text="@string/eur_rad" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCNY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cny_rad" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKZT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/kzt_rad" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRUB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rub_rad" />
+    </RadioGroup>
+
+</RelativeLayout>

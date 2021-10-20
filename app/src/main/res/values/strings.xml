@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Instruments 190103098</string>
+    <string name="stopwatch_label">Stopwatch</string>
+    <string name="parrot_label">Parrot</string>
+    <string name="converter_label">Converter</string>
+    <string name="home_page">Home Page</string>
+    <string name="change">Change</string>
+    <string name="click">Click</string>
+    <string name="hint1">Write here</string>
+    <string name="stopwatch_start_button">Start</string>
+    <string name="stopwatch_activity_start_button">Start</string>
+    <string name="stopwatch_activity_stop_button">Stop</string>
+    <string name="stopwatch_activity_reset_button">Reset</string>
+    <string name="stopwatch_text">Time</string>
+    <string name="converter_button">Solve</string>
+    <string-array name="main_page_spinner_items">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+    <string name="convert_button">Convert</string>
+    <string name="usd">$:</string>
+    <string name="eur">€:</string>
+    <string name="cny">¥:</string>
+    <string name="rub">₽:</string>
+    <string name="kzt">₸:</string>
+    <string name="usd_val">US Dollar</string>
+    <string name="eur_val">Euro </string>
+    <string name="cny_val">Renminbi</string>
+    <string name="rub_val">Ruble</string>
+    <string name="kzt_val">Tenge</string>
+    <string name="usd_rad">$</string>
+    <string name="eur_rad">€</string>
+    <string name="cny_rad">¥</string>
+    <string name="rub_rad">₽</string>
+    <string name="kzt_rad">₸</string>
+</resources>

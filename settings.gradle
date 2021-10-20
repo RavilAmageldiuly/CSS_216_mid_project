@@ -1,0 +1,2 @@
+rootProject.name = "Instruments_YourId"
+include ':app'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инструменты 190103098</string>
+    <string name="stopwatch_label">Секундомер</string>
+    <string name="parrot_label">Попугайчик</string>
+    <string name="converter_label">Конвертер</string>
+    <string name="home_page">Домашняя страница</string>
+    <string name="change">Изменить</string>
+    <string name="click">Нажми</string>
+    <string name="hint1">Пишите здесь</string>
+    <string name="stopwatch_start_button">Старт</string>
+    <string name="stopwatch_activity_start_button">Старт</string>
+    <string name="stopwatch_activity_stop_button">Стоп</string>
+    <string name="stopwatch_activity_reset_button">Сброс</string>
+    <string name="stopwatch_text">Время</string>
+    <string name="converter_button">Решить</string>
+    <string name="convert_button">Конвертировать</string>
+    <string name="usd">$:</string>
+    <string name="eur">€:</string>
+    <string name="cny">¥:</string>
+    <string name="rub">₽:</string>
+    <string name="kzt">₸:</string>
+    <string name="usd_val">Доллар</string>
+    <string name="eur_val">Евро</string>
+    <string name="cny_val">Юань</string>
+    <string name="rub_val">Рубль</string>
+    <string name="kzt_val">Тенге</string>
+    <string name="usd_rad">$</string>
+    <string name="eur_rad">€</string>
+    <string name="cny_rad">¥</string>
+    <string name="rub_rad">₽</string>
+    <string name="kzt_rad">₸</string>
+</resources>
