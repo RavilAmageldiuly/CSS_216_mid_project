@@ -30,4 +30,8 @@
     <string name="cny_rad">¥</string>
     <string name="rub_rad">₽</string>
     <string name="kzt_rad">₸</string>
+    <string name="contacts_button">Показать</string>
+    <string name="contact_name">Имя</string>
+    <string name="contact_surname">Фамилия</string>
+    <string name="contact_phone_number">Номер Телефона</string>
 </resources>

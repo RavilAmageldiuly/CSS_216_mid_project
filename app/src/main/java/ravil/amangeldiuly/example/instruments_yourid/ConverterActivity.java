@@ -3,16 +3,8 @@ package ravil.amangeldiuly.example.instruments_yourid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.Settings;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -34,7 +26,9 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class ConverterActivity extends AppCompatActivity {
 
-    public class DownloadCurrency extends AsyncTask<String, Void, String> {
+    String currentCurrency = "USD";
+
+    public static class DownloadCurrency extends AsyncTask<String, Void, String> {
 
         @Override
         protected String doInBackground(String... strings) {
@@ -45,7 +39,8 @@ public class ConverterActivity extends AppCompatActivity {
                 connection.setRequestMethod("GET");
                 connection.connect();
                 int responseCode = connection.getResponseCode();
-                if (responseCode != 200) throw new RuntimeException("HttpResponseCode: " + responseCode);
+                if (responseCode != 200)
+                    throw new RuntimeException("HttpResponseCode: " + responseCode);
                 else {
                     String inline = "";
                     Scanner scanner = new Scanner(url.openStream());
@@ -61,8 +56,6 @@ public class ConverterActivity extends AppCompatActivity {
             return result;
         }
     }
-
-    String currentCurrency = "USD";
 
     @SuppressLint({"NonConstantResourceId", "SetTextI18n", "DefaultLocale"})
     @Override
@@ -195,5 +188,4 @@ public class ConverterActivity extends AppCompatActivity {
 //            }
 //        });
 //    }
-
 }
